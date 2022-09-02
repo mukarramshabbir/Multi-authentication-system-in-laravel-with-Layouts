@@ -32,7 +32,7 @@ class HomeController extends Controller
         $notification=array(
             'message'=>'Successfully Logout',
             'alert-type'=>'success'
-        );
+        ); 
         return Redirect()->route('login')->with($notification);
     }
 }
